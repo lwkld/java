@@ -28,4 +28,20 @@ IdentityFile /c/Users/Administrator/.ssh/id_rsa
 
 推送文件--git push
 
+查看本地分支--git branch
 
+查看所有分支--git branch -a
+
+创建一个本地分支--git checkout -b 1.0 (1.0为分支名)
+
+创建远程分支--git push --set-upstream origin 1.0
+
+删除本地分支--git branch -d 1.0 在别的分支上执行
+
+删除远程分支1--git branch -r -d origin/1.0
+
+删除远程分支2--git push origin :1.0   注意冒号后面有一个空格
+
+合并分支--git merge 1.0
+
+合并分支的冲突解决后重新提交
