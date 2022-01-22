@@ -45,3 +45,9 @@ IdentityFile /c/Users/Administrator/.ssh/id_rsa
 合并分支--git merge 1.0
 
 合并分支的冲突解决后重新提交
+
+回退到上一个版本--git reset --hard HEAD^
+
+回退到前100个版本--git reset --hard~100
+
+回退到指定版本--git reflog后 git reset --hard xxxxx
